@@ -1,6 +1,6 @@
 package math;
 
-import databases.ConnectDB;
+import algorithm.ConnectDB;
 
 import java.util.ArrayList;
 import java.util.List;

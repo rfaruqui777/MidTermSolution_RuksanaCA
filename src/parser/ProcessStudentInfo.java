@@ -1,6 +1,6 @@
 package parser;
 
-import databases.ConnectDB;
+import algorithm.ConnectDB;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
