@@ -24,18 +24,40 @@ What is difference between path and classpath variables?
 A: 1).Path is an environment variable which is used by the operating system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files.
 2) .Path is nothing but setting up an environment for operating system.
 What is the difference between an Interface and Abstract class?
-A:
+A:Interface has only abstract method that are non-implemented, whereas Abstract class can have both abstract method and non abstract method.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A: No,
 what is Access Specifier?
+A: Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members.
 What is OOP ? Define each feature of java OOP.
+A: Object Oriented Programming.
+Abstraction: Is Implementation hiding.
+Encapsulation: Is data hiding.
+Interitance: is the way to acquire properties from one class to another class.
+Polymorphism: is the ability of an object to take on many forms.
 What is Java Package and which package is imported by default?
+A: A package is a namespace that organizes a set of related classes and interfaces. Conceptually we can think of packages as being similar to different folders on our computer.
 What is API? Name list of API that you have used so far.
+A: API stands for Application Programming Interface. An API is a software intermediary that allows two applications to talk to each other.
+List of API: java.security.SecureRandom;
+             java.util.Arrays;
+             java.util.Collections;
+             java.util.List;
+             java.util.Random;
+             org.testng.Assert;
 Does java support multiple inheritance, explain why or why not?
+Java doesn't allow multiple inheritance to avoid the ambiguity caused by it. One of the example of such problem is the diamond problem that occurs in multiple inheritance.
 What is method overloading and when it happens?
+A: When several methods have same name but different signature then it is called method overloading. It happens at compile time.
 Explain exceptions in java and how to handle it.
+A: Exceptions is an event that occurs during the execution of the program. It handled using try .... catch block.
 What is static keyword in java? How it has been used in variables and methods ?
+A: static variables and methods are belongs class not belongs to object. We do not need to create object to access static variables and methods. We can access variables and methods through class.
 What is final and how it has been used variables and methods?
+A: If we declare variable as final we can not modify that variable.
+Final in terms of method can not overriding.
 What is final, finally and finalize?
+A: final:
 What is a constructor ?
 Can we have multiple constructors in a class?
 If we don't have a constructor declared, what is called during the object creation?

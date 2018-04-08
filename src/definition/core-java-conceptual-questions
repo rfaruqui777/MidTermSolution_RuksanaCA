@@ -57,8 +57,11 @@ What is final and how it has been used variables and methods?
 A: If we declare variable as final we can not modify that variable.
 Final in terms of method can not overriding.
 What is final, finally and finalize?
-A: final:
+A: final:If we declare variable as final we can not modify that variable.
+finally: is used to place important code, it will be executed whether exception is handled or not.
+finalize is used to destroy the object.
 What is a constructor ?
+A: Constructor is used to initialize an object.
 Can we have multiple constructors in a class?
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
