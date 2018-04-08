@@ -15,7 +15,7 @@ public class Numbers {
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 */
 	public static void main(String[] args) throws Exception {
-		int[] num = new int[1000000];
+		int[] num = new int[100];
 		Random rand = new Random();
 		for (int i = 0; i < num.length; i++) {
 			num[i] = rand.nextInt(100);
