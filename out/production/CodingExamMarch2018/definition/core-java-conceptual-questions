@@ -1,18 +1,30 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A: A programming language is a formal language that specifies a set of instructions that can be used to produce various kinds of output. Programming languages generally consist of instructions for a computer.
 What jdk contains or composed of and define each components?
+A: JDK contains Runtime Interpreter, the compiler, the debugger, API source code, Applet Viewer, Applet Demos, Documentation generator.
 What is IDE?
+A: Integrated Development Environment. It is a smart editor to debug, compile, find out the syntax error and run the program.
 What are the IDEs available in the market to support java?
+A: NetBeans, Eclipse, IntelliJ IDEA, BlueJ, JEdit
 Explain the entire java life cycle.
+A: After writing the code it called the java compiler javac that produces byte codes called .class then byte code needs to load to JVM which is Java Virtual Machine and JVM interprets Just In Time generator and gives the output to operating system.
 what is class?
+A: Class is a blue print of an object.
 What is object?
+A: Object is an instance of a class.
 What is the entry point of an application?
+A: main() method.
 Why main is static?
+A: Because static method is belongs to class not to object. We do not create any create object to access the main method.
 Which class is the superclass of all classes?
+A: Object class.
 What is difference between path and classpath variables?
+A: 1).Path is an environment variable which is used by the operating system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files.
+2) .Path is nothing but setting up an environment for operating system.
 What is the difference between an Interface and Abstract class?
+A:
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
 What is OOP ? Define each feature of java OOP.
@@ -42,6 +54,9 @@ What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
 What is Serialization and Deserialization?
 when to use transient variable in java?
+Difference between while and do..while loop?
+What is Enum?
+What is Iterator?
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
 What is constructor chaining in Java?
@@ -50,6 +65,16 @@ What is JIT stands for?
 Explain Java Heap space and Garbage collection?
 Can you guarantee the garbage collection process?
 What is the difference between stack and heap in Java?
+What is reflection in java and why is it useful?
+what is multithreading in java?
+What is the use of synchronization in Java?
+What is Framework?
+What are the testing Framework available in java?
+Difference between jUnit and testNG?
+What are the dependencies for this project?
+what is dependency injection in java?
+What is static binding and dynamic binding?
+
 
 
 
